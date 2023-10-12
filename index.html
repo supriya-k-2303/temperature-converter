@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+body{
+		color: black;
+		background-color:rgb(255, 255, 255);
+		background-image:url(images/nature1.jpg);
+        background-size: cover;
+	}
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    text-transform: uppercase;
+}
+h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color:black;
+}
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.input {
+    flex: 1 1 40%;
+    margin: 15px;
+    appearance: none;
+    background: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 100%;
+    color: rgb(7, 7, 7);
+}
+::placeholder {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+</style>
+<body>
+    <main>
+        <header>
+            <h1 style="color:black;">Temperature Converter</h1>
+        </header>
+        <div class="inputs">
+            <input type="number" name="celcius" id="celcius" class="input" placeholder="Celcius">
+            <input type="number" name="fahrenheit" id="fahrenheit" class="input" placeholder="Fahrenheit">
+            <input type="number" name="kelvin" id="kelvin" class="input" placeholder="Kelvin">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

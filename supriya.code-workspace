@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../supriya-portfolio"
+		},
+		{
+			"path": "../supriyaweb"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "supriya-portfolio"
+	}
+}
